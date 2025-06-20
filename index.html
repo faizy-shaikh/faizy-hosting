@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saylani Online Academy Registration Form </title>
+</head>
+<style>
+    form{
+        background-color: aliceblue;
+        padding: 20px;
+        width: 500px;
+        margin: auto;
+
+    }
+    h2 {
+         background-color: antiquewhite;
+         padding: 20px;
+         width: 500px;
+        margin: auto;
+    }
+
+
+</style>
+<body>
+    <center>
+        <img src="./download.png" width="35%"alt="saylani logo">
+        <h1>Saylani online Academy</h1>
+            <fieldset style="width: fit-content;">
+            <H2>Student Registration Form</H2>
+      <form action="./smit.html" method="">
+          <table>
+            <tr>
+                <td>Name:</td>
+                <td><input type="name" name="user name" placeholder="Name" required></td>
+            </tr>
+            <tr>
+                <td>Father Name:</td>
+                <td><input type="Father name " name="user name " placeholder="Father name " required></td>
+            </tr>
+            <tr>
+                <td>password:</td>
+                <td><input type="password" name="password" placeholder="password" minlength="5" maxlength="10" required></td>
+            </tr>
+            <td>Address:</td>
+            <td><input type="Address" name="Address" placeholder="Address" required></td>
+            <tr>
+                <td>Gender:</td>
+                <td><input type="radio" name="gender" value="male">male
+                <input type="radio" name="gender" value="female " >Female </td>
+            </tr>
+            <tr>
+             <td>Language:</td>
+             <td>
+            <input type="checkbox "name="Language" value="urdu">Urdu
+            <input type="checkbox" name="Language" value="english">English
+            <input type="checkbox" name="Language" value="arabic">Arabic
+            <input type="checkbox" name="Language" value="chinese">Chinese
+           </td>
+           <tr>
+            <td>Date of birth:</td>
+            <td><input type="date" name="dob"></td>
+           </tr>
+           <tr>
+            <td>Email ID:</td>
+            <td><input type="email" name="email" placeholder="Email ID"></td>
+           </tr>
+           <tr>
+            <td>Mobile Number:</td>
+            <td><input type="tel" name="mobile" placeholder="Mobile Number"></td>
+            <tr>
+            <td>City;</td>
+            <td><select name="city">
+            <option>Select your City</option>
+            <option>Karachi</option>
+            <option>Lahore</option>
+            <option>Islamabad</option>
+            <option>Hyderabad</option>
+            </select>    
+            </td>
+            </tr>
+            <tr>
+                <td>Hobbies</td>
+                <td><select name="Hobbies" multiple size="4">
+                <option>Crickrt</option>
+                <option>Football</option>
+                <option>Hockey</option>
+                <option>Tennis</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Picture Upload</td>
+                <td><input type="file" name="picture">
+                <button><input type="button">Upload picture</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="centar">
+                <input type="submit" value="submit form">
+                </td>
+            </tr>
+          </table>
+          </form>
+        </fieldset>
+        </center>
+    
+</body>
+</html>
